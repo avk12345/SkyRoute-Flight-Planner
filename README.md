@@ -71,20 +71,17 @@ Use these commands to configure the project in your local IDE:
 **1. Clone the Repository**
 git clone https://github.com
 cd SkyRoute-Flight-Planner
-Use code with caution.
 
 2. Save & Sync Progress
 bash
 git add .
 git commit -m "Describe your changes"
 git push origin main
-Use code with caution.
 
 Auth: Use your GitHub username and Personal Access Token as the password.
 3. Reset to Clean State (Discard local changes)
 bash
 git fetch origin && git reset --hard origin/main
-Use code with caution.
 
 Data & Technologies
 Data Files: assets/vertices.csv and assets/edges.csv.

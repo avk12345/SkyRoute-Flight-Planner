@@ -73,14 +73,13 @@ git clone https://github.com
 cd SkyRoute-Flight-Planner
 
 2. Save & Sync Progress
-bash
 git add .
 git commit -m "Describe your changes"
 git push origin main
 
 Auth: Use your GitHub username and Personal Access Token as the password.
+
 3. Reset to Clean State (Discard local changes)
-bash
 git fetch origin && git reset --hard origin/main
 
 Data & Technologies
